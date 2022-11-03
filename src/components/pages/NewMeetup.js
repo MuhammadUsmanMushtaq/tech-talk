@@ -21,7 +21,7 @@ function NewMeetupPage() {
   return (
     <section>
       <div>
-        <h2 className='py-6 text-4xl md:py-12 md:text-6xl text-center md:text-left'>
+        <h2 className='py-6 text-4xl md:py-12 md:text-6xl font-bold'>
           New Meetup
         </h2>
       </div>

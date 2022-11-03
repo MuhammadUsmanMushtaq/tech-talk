@@ -25,7 +25,7 @@ function NewMeetupForm(props) {
 
   return (
     <form
-      className='max-w-[600px] p-8 shadow bg-white'
+      className='max-w-[800px] p-8 shadow bg-white'
       onSubmit={submitHandler}
     >
       <div className='flex flex-col'>
@@ -78,7 +78,7 @@ function NewMeetupForm(props) {
       </div>
 
       <div className='flex justify-center '>
-        <button className=' w-[160px] px-1 py-2  rounded bg-teal-600 text-white text-center hover:bg-teal-700'>
+        <button className=' w-[160px] px-1 py-2  rounded bg-teal-500 text-white text-center hover:bg-teal-600'>
           Add Meetup
         </button>
       </div>

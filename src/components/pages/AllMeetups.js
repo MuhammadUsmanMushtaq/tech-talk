@@ -40,7 +40,7 @@ function AllMeetupsPage() {
 
   return (
     <section>
-      <h2 className='py-6 text-4xl md:py-12 md:text-6xl text-center md:text-left'>
+      <h2 className='py-6 text-4xl md:py-12 md:text-6xl font-bold'>
         All Meetups
       </h2>
       <MeetupList meetups={loadedMeetups} />
